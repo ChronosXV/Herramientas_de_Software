@@ -4,3 +4,4 @@ Dia 3 Se completaron los ejercicios de los puntos 3. Se almacenó el df en inter
 Dia 4 Se completan los puntos del ejercicio 4.
 Dia 5 Se completan los puntos del ejercicio 5.
 Dia 6 Se completan los puntos del ejercicio 6.
+Dia 7 Se completan los puntos del ejercicio 7.
