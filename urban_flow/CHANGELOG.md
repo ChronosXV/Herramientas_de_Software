@@ -4,10 +4,12 @@
 
 - Dia 3 Diseño del modelo lógico según el archivo "data/processed/speeding_fines_image.csv" de las siguientes entidades:
 
-  - Vehiculo
+      - Vehiculo
 
-  - Multa
+      - Multa
 
-  - Radar
+      - Radar
 
-  - Evidencia
+      - Evidencia
+
+- Dia 4 Completamos la función `procesar_fila_csv` que recibe como parámetro un `dict`.
