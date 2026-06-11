@@ -15,3 +15,5 @@
 - Dia 4 Completamos la función `procesar_fila_csv` que recibe como parámetro un `dict`.
 
 - Dia 5 Diseñamos el modelo relacional (SQLAlchemy) que usaremos.
+
+- Dia 6 Creamos y poblamos la Base de Datos transito.
