@@ -7,3 +7,12 @@
 * Un componente clave de esta solución es la función `buscar_patente_imagen`, la cual permite recibir una imagen, generar su embedding y buscar el vector más cercano en ChromaDB. Tras identificar la coincidencia, esta función recupera de forma eficiente los datos completos del vehículo asociado desde la base de datos relacional.
 
 * El desarrollo priorizó la calidad del código, incorporando type hints para mejorar la legibilidad y mantenibilidad. La validación rigurosa de las funciones aseguró la robustez del sistema, culminando en una plataforma unificada capaz de vincular información textual y visual de manera efectiva, ofreciendo una base sólida para futuras expansiones en el análisis y la búsqueda de infracciones de tráfico.
+  * En este proyecto, hemos implementado una solución integral para la gestión de multas de tráfico, combinando bases de datos relacionales y vectoriales para ofrecer capacidades de búsqueda avanzada.
+
+  * Inicialmente, se estableció y pobló una base de datos SQLite, `transito.db`, utilizando SQLAlchemy. Este proceso incluyó la migración de datos estructurados de vehículos, radares, multas y evidencias desde un archivo CSV, asegurando la integridad y persistencia de la información crítica. Se diseñó un modelo relacional detallado y se implementó su correspondiente ORM, garantizando una gestión eficiente de las relaciones entre las entidades.
+
+ * Posteriormente, se integró una base de datos vectorial, ChromaDB (`patente_vectorial_db`), para manejar datos no estructurados como imágenes. Se configuró OpenCLIP, un modelo de vanguardia, para generar embeddings de las imágenes de matrículas. Estos vectores se almacenaron en ChromaDB junto con metadatos relevantes como el ID del vehículo y la ruta de la imagen original, facilitando la búsqueda por similitud visual.
+
+* Un componente clave de esta solución es la función `buscar_patente_imagen`, la cual permite recibir una imagen, generar su embedding y buscar el vector más cercano en ChromaDB. Tras identificar la coincidencia, esta función recupera de forma eficiente los datos completos del vehículo asociado desde la base de datos relacional.
+
+* El desarrollo priorizó la calidad del código, incorporando type hints para mejorar la legibilidad y mantenibilidad. La validación rigurosa de las funciones aseguró la robustez del sistema, culminando en una plataforma unificada capaz de vincular información textual y visual de manera efectiva, ofreciendo una base sólida para futuras expansiones en el análisis y la búsqueda de infracciones de tráfico.
