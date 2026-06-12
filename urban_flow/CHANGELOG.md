@@ -21,3 +21,5 @@
 - Dia 7 Realizamos las consultas solicitadas.
 
 - Dia 8 Creación y población de la BD vectorial.
+
+- Dia 9 Creación de la función `buscar_patente_imagen` que recibe como parámetro una imagen y retorna todos los datos del vehículo.
