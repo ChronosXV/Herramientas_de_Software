@@ -17,3 +17,5 @@
 - Dia 5 Diseñamos el modelo relacional (SQLAlchemy) que usaremos.
 
 - Dia 6 Creamos y poblamos la Base de Datos transito.
+
+- Dia 7 Realizamos las consultas solicitadas.
